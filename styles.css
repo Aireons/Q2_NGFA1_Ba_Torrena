@@ -1,0 +1,64 @@
+.header{
+    display:flex;
+    border: 1px;
+    width: 100vw;
+    background-color: grey;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.footer{
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+    background-color: grey;
+
+}
+#Chickpeace{
+    display: flex;
+    justify-content:flex-start ;
+}
+.group
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group div
+{
+    margin: 10px;
+}
+.sprite{
+    background: url('sprite3.png') no-repeat;
+	width: 66px;
+	height: 66px;
+}
+#twitter {
+    background-position:-66px -72px;
+	width: 66px;
+	height: 66px;
+}
+#vine {
+	background-position:-513px -72px;
+	width: 66px;
+	height: 66px;
+}
+#facebook {
+	background-position:-439px -146px;
+
+}
+#youtube {
+
+    background-position:-439px -221px ;
+}
+@media screen and (max-width:640px){
+    
+}
